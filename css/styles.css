@@ -881,7 +881,7 @@ header{
     padding: 20px 24px;
    }
 
-.name-box{
+.action-name__label{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -894,18 +894,12 @@ header{
     margin-bottom: 4px;
 }
 
-
-
-
-
-.name-op-box{
+.action-name__text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    /* identical to box height, or 188% */
-    
     letter-spacing: 0.03em;
     color: var(--second-text);
 }
@@ -986,15 +980,15 @@ footer .container {
 }
 
 .footer-address__map:hover,
-.footer-address__mail-down:hover,
-.footer-address__tel-down:hover {
+.footer-address__mail:hover,
+.footer-address__tel:hover {
     color: var(--button-color);
     fill: var(--button-color);
 }
 
 .footer-address__map:focus,
-.footer-address__mail-down:focus,
-.footer-address__tel-down:focus {
+.footer-address__mail:focus,
+.footer-address__tel:focus {
     color: var(--button-color);
     fill: var(--button-color);
 }
@@ -1017,21 +1011,21 @@ footer .container {
     margin-top: 15px;
 }
 
-.soc-link {
+.footer-link {
     display: flex;
     justify-content: center;
 
 }
 
-.soc-link li {
+.footer-link li {
     margin-right: 10px;
 }
 
-.soc-link li:last-child {
+.footer-link li:last-child {
     margin-right: 0;
 }
 
-.soc-link__size-icon {
+.footer-link__size-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1042,17 +1036,17 @@ footer .container {
     transition: background-color 250ms linear;
 }
 
-.soc-link__icon {
+.footer-link__icon {
     height: 20px;
     width: 20px;
     fill: var(--background-color);
 }
 
-.soc-link__size-icon:hover {
+.footer-link__size-icon:hover {
     background-color: var(--button-color);
 }
 
-.soc-link__size-icon:focus {
+.footer-link__size-icon:focus {
     background-color: var(--button-color);
 }
 
