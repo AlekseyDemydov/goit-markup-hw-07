@@ -28,16 +28,14 @@ span {
 }
 body{
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     padding-top: 80px;
     background: var(--background-color);
-  
 }
 .container{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-  
 }
 button{
     cursor: pointer;
@@ -51,11 +49,6 @@ li{
 a{
     text-decoration: none;
 }
-.benefits-section ul,
-.portfolio-section ul {
-    display: flex;
-    justify-content: center;
-}
 
 /* header */
 header a,
@@ -68,7 +61,7 @@ header div {
     align-items: center;
 }
 header{
-    /* border-bottom: 1px solid #EEEEEE; */
+    
     box-sizing: border-box;
     padding: 24px 0 25px 0;
     border-bottom: 1px solid #EEEEEE;
@@ -459,7 +452,10 @@ header{
 .benefits-section {
     padding: 94px 0 94px 0;
 }
-
+.benefits-section ul {
+    display: flex;
+    justify-content: center;
+}
 .benefits-section li {
     margin: 0 15px;
 }
@@ -750,6 +746,10 @@ header{
 .portfolio-section{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.portfolio-section ul {
+    display: flex;
+    justify-content: center;
 }
 .portfolio-section__button li {
     padding-right: 8px;
