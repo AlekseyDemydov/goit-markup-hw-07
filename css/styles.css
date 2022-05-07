@@ -51,17 +51,7 @@ a{
 }
 
 /* header */
-header a,
-header ul,
-header nav,
-header div {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    align-items: center;
-}
 header{
-    
     box-sizing: border-box;
     padding: 24px 0 25px 0;
     border-bottom: 1px solid #EEEEEE;
@@ -71,6 +61,16 @@ header{
     top: 0;
     z-index: 100;
 }
+header a,
+header ul,
+header nav,
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+}
+
 .header-logo {
     margin-right: 93px;
 }
@@ -171,14 +171,7 @@ header{
 }
 
 
-.button-portfolio:hover {
-    color: var(--button-color);
-    fill: var(--button-color);
-}
-.button-portfolio:focus {
-    color: var(--button-color);
-    fill: var(--button-color);
-}
+
 
 
 
@@ -584,7 +577,7 @@ header{
     color: var(--text-color);
 }
 
-.team-section .team-section__our-team:nth-child(2) {
+.team-section .our-team:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -593,7 +586,7 @@ header{
     list-style: none;
 }
 
-.team-section__our-team>li {
+.our-team>li {
     max-width: 270px;
     background: var(--background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -607,29 +600,29 @@ header{
     box-sizing: border-box;
 }
 
-.team-section__card:nth-child(2) {
+.card:nth-child(2) {
     text-align: center;
     padding: 30px 0;
 }
 
-.team-section__card:nth-child(3) {
+.card:nth-child(3) {
     padding-bottom: 30px;
 }
 
-.team-section__link {
+.card__link {
     display: flex;
     justify-content: center;
 }
 
-.team-section__link li {
+.card__link li {
     margin-right: 10px;
 }
 
-.team-section__link li:last-child {
+.card__link li:last-child {
     margin-right: 0;
 }
 
-.team-section__size-icon {
+.card__size-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -639,29 +632,29 @@ header{
     fill: #AFB1B8;
     transition: background-color 250ms linear, fill 250ms linear;
 }
-.team-section__size-icon:hover {
+.card__size-icon:hover {
     background: var(--button-color);
 }
 
-.team-section__size-icon:focus {
+.card__size-icon:focus {
     background: var(--button-color);
 }
 
-.team-section__icon {
+.card__icon {
     height: 20px;
     width: 20px;
     transition: fill 250ms linear;
 }
 
-.team-section__size-icon:focus {
+.card__size-icon:focus {
     fill: var(--btn-color2);
 }
 
-.team-section__size-icon:hover {
+.card__size-icon:hover {
     fill: var(--btn-color2);
 }
 
-.team-section__name {
+.card__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -671,7 +664,7 @@ header{
     margin-bottom: 10px;
 }
 
-.team-section__text {
+.card__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -698,22 +691,22 @@ header{
     margin-bottom: 50px;
 }
 
-.client-section__card {
+.client-card {
     display: flex;
     justify-content: center;
 }
 
-.client-section__card li {
+.client-card li {
     display: flex;
     justify-content: center;
     margin-right: 30px;
 }
 
-.client-section__card li:last-child {
+.client-card li:last-child {
     margin-right: 0;
 }
 
-.client-section__icon-size {
+.client-card__icon-size {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -726,17 +719,17 @@ header{
     transition: border-color 250ms linear, fill 250ms linear;
 }
 
-.client-section__icon {
+.client-card__icon {
     width: 106px;
     height: 60px;
 }
 
-.client-section__icon-size:hover {
+.client-card__icon-size:hover {
     border-color: var(--button-color);
     fill: var(--button-color);
 }
 
-.client-section__icon-size:focus {
+.client-card__icon-size:focus {
     border-color: var(--button-color);
     fill: var(--button-color);
 }
@@ -765,6 +758,16 @@ header{
     transition: color 250ms linear, background-color 250ms linear, box-shadow 250ms linear;
 
 }
+
+/* .button-portfolio:hover {
+    color: var(--button-color);
+    fill: var(--button-color);
+}
+
+.button-portfolio:focus {
+    color: var(--button-color);
+    fill: var(--button-color);
+} */
 
 .portfolio-section__button button:hover,
 .portfolio-section__button button:focus {
@@ -803,7 +806,6 @@ header{
     display: block;
 }
 .product{
-    
     display: block;
     align-items: center;
     justify-content: center;
